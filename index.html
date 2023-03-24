@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Genos Revelio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body id= "body" class="background-before">
+
+	
+    <main id="main">
+		<section id="before" class="transparent-div">
+			<h2>Bem-vindos e bem-vindas!</h2>
+			
+			<p>Olá, pessoa especial! Chegou a hora da grande revelação do sexo do bebê! Papai e mamãe estão super empolgados para compartilhar esse momento único com você.</p>
+
+			<p>Antes de tudo, um aviso: existe uma pequena chance, cerca de 1%, de o exame estar errado. Mas não vamos deixar isso atrapalhar a brincadeira, né?</p>
+
+			<p>Então, você tá pronto(a) para descobrir se o baby é um príncipe ou uma princesa? É hora de soltar o grito: "é um menino!" ou "é uma menina!". Mas independente do sexo, o que realmente importa é o amor que essa família já tem por esse pequeno(a) rebento.</p>
+
+			<p>Então vamos comemorar juntos essa novidade e aguardar ansiosos pela chegada dessa lindeza que será amada incondicionalmente! Afinal, um bebê é sempre motivo de muita alegria e fofura!</p>
+			
+			<p>Clique no botão abaixo para assistir à Mágica da Revelação!</p>
+			
+			<div class="button-wrapper">
+				<select id="gender-select" onchange="checkGender()">
+					<option value="" selected disabled>Arrisca um palpite?</option>
+					<option value="menino">É um menino! 🤴</option>
+					<option value="menina">É uma menina! 👸</option>
+				</select>
+			</div>
+			
+			<br> 
+			
+			<div class="button-wrapper">
+				<button id="reveal-btn" class="before-reveal" onclick="playVideo()">Genos Revelio!</button>
+			</div>
+      </section>
+	  
+	  <section id="video">
+			<div id="player"></div>
+		</section>
+	  
+	  <section id="after" class="transparent-div">
+		<div id="gender" class="after-reveal">	
+			Menina!
+		</div>
+		
+		<p id="palpite"></p>
+		
+		<p>Sim, estamos esperando uma princesinha! Estamos todos muito felizes e empolgados aqui em casa. Ziggs e Xayah não veem a hora de começar a bagunça! 🐶🐶</p>
+		
+		<p>Agora é só esperar a hora da neném chegar. O esperado é para o começo de outubro, mas pode ser que chegue um pouco mais cedo (se for ansiosa igual ao papai) ou que se atrase mais um pouco (se for enrolada igual à mamãe).</p>
+		
+		<div class="photo-container">
+			<img src="images/foto.jpg">
+		</div>
+	  </section>
+	  
+	  <br>
+    </main>
+	
+    <footer>
+      <p>Genos Revelio by <span class="author">JP Roberto</span> © 2023</p>
+	  <p>Image by <span class="author">Freepik</span></p>
+    </footer>
+	
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

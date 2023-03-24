@@ -1,0 +1,160 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+  color: #333333;
+}
+
+header {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+	max-width: 1000px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+footer p {
+	text-align: center;
+	font-size: 12px;	
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+	text-align:center;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+button {
+  font-size: 24px;
+  padding: 12px 24px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.before-reveal {
+	background-color: #BEBD7F;
+	color: white;
+}
+
+.after-reveal {
+	background-color: #FFC0CB;
+	color: white;
+}
+
+.background-after {
+  background-image: url('images/background-after.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-before {
+	background-image: url('images/background-before.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-wrapper {
+	text-align: center;
+}
+
+#gender {
+  margin-top: 24px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #F5F5F5;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  line-height: 150px;
+  transition: background-color 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: F5F5F5;
+}
+
+#after {
+	display: none;
+	text-align: center;
+}
+
+#video {
+	padding-top: 10px;
+	text-align: center;
+	display: none;
+}
+
+.author {
+  font-weight: bold;
+  color: #555;
+}
+
+.transparent-div {
+  background-color: rgba(255, 255, 255, 0.7); /* cor branca com 50% de transparência */
+  border-radius: 10px; /* bordas arredondadas */
+  padding: 20px; /* espaçamento interno */
+}
+
+select {
+  border: none;
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 0 3px rgba(143, 206, 255, 0.5);
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+   max-width: 100%;
+  height: auto;
+}
