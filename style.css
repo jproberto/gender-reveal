@@ -75,13 +75,13 @@ button {
 }
 
 .background-after {
-  background-image: url('images/background-after.jpg');
+  background-image: url('background-after.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background-before {
-	background-image: url('images/background-before.jpg');
+	background-image: url('background-before.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
