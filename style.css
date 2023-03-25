@@ -5,6 +5,8 @@ body {
   padding: 0;
   background-color: #F5F5F5;
   color: #333333;
+  height: 100%;
+  width: 100%;
 }
 
 header {
@@ -70,18 +72,18 @@ button {
 }
 
 .after-reveal {
-	background-color: #FFC0CB;
+	background-color: #FFB5D4;
 	color: white;
 }
 
 .background-after {
-  background-image: url('background-after.jpg');
+  background-image: url('images/background-after.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background-before {
-	background-image: url('background-before.jpg');
+	background-image: url('images/background-before.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -111,6 +113,7 @@ button {
 #after {
 	display: none;
 	text-align: center;
+	height: 100%;
 }
 
 #video {
