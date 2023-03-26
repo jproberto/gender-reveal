@@ -67,8 +67,8 @@ button {
 }
 
 .before-reveal {
-	background-color: #C8A1FF;
-	color: white;
+	background: linear-gradient(135deg, #f28fd3 0%, #6dc5e3 100%);
+	color: #333333;
 }
 
 .after-reveal {
