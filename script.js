@@ -1,4 +1,5 @@
 function playVideo() {
+	/*
   var playerDiv = document.getElementById("player");
   playerDiv.innerHTML = '<div id="player-iframe"></div>';
   
@@ -11,6 +12,21 @@ function playVideo() {
       'onStateChange': onPlayerStateChange
     }
   });
+  */
+  
+	hideSection("before");
+	showSection("video");
+	
+	var playerDiv = document.getElementById("player");
+	playerDiv.innerHTML = '<video id="myVideo" src="images/video.mp4" controls></video>';
+  
+	const video = document.getElementById('myVideo');
+	  video.addEventListener('ended', function() {
+		setTimeout(function() {
+			revealGender();
+		}, 1000);
+	  });
+  
 }
 
 function onPlayerReady(event) {
