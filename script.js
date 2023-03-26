@@ -1,19 +1,4 @@
 function playVideo() {
-	/*
-  var playerDiv = document.getElementById("player");
-  playerDiv.innerHTML = '<div id="player-iframe"></div>';
-  
-  var player = new YT.Player("player-iframe", {
-    height: "450",
-    width: "900",
-    videoId: "jhFDyDgMVUI",
-    events: {
-      'onReady': onPlayerReady,
-      'onStateChange': onPlayerStateChange
-    }
-  });
-  */
-  
 	hideSection("before");
 	showSection("video");
 	
@@ -27,20 +12,6 @@ function playVideo() {
 		}, 1000);
 	  });
   
-}
-
-function onPlayerReady(event) {
-	hideSection("before");
-	showSection("video");
-	event.target.playVideo();
-}
-
-function onPlayerStateChange(event) {
-  if (event.data == YT.PlayerState.ENDED) {
-    setTimeout(function() {
-		revealGender();
-	}, 1000);
-  }
 }
 
 function hideSection(sectionId) {
